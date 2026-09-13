@@ -6,3 +6,4 @@ realm = "shared"
 
 [dependencies]
 packet = "reelplum/packet@1.7.0"
+janitor = "howmanysmall/janitor@1.18.3"
