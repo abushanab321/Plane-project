@@ -1,1 +1,2 @@
-print("Hello world, from client!")
+local PlaneInputManager = require(script.ClientServices.PlaneClientService.PlaneInputManager)
+PlaneInputManager.Init()

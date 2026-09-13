@@ -1,8 +1,5 @@
 --!strict
-
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Workspace = game:GetService("Workspace")
-local packet = require(ReplicatedStorage.Packages.packet)
-local NewPacket = packet("NewPacket", packet.NumberU8)
-
-NewPacket.OnServerEvent:Connect(function() end)
+local PlaneController = require(script.Services.PlaneService.PlaneController)
+task.wait(2)
+PlaneController.Init()
+PlaneController.Sync()
